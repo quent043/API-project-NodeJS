@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1645972293438" clover="3.2.0">
+  <project timestamp="1645972293438" name="All files">
+    <metrics statements="315" coveredstatements="224" conditionals="68" coveredconditionals="23" methods="46" coveredmethods="23" elements="429" coveredelements="270" complexity="0" loc="315" ncloc="315" packages="5" files="23" classes="23">
+      <package name="before">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\index.js">
+          <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="8" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="before.middleware">
+        <metrics statements="28" coveredstatements="26" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="5"/>
+        <file name="admin.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\middleware\admin.js">
+          <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="8" count="4" type="stmt"/>
+        </file>
+        <file name="auth.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\middleware\auth.js">
+          <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="1" count="4" type="stmt"/>
+          <line num="2" count="4" type="stmt"/>
+          <line num="4" count="4" type="stmt"/>
+          <line num="5" count="32" type="stmt"/>
+          <line num="6" count="32" type="cond" truecount="2" falsecount="0"/>
+          <line num="8" count="27" type="stmt"/>
+          <line num="9" count="27" type="stmt"/>
+          <line num="11" count="26" type="stmt"/>
+          <line num="12" count="26" type="stmt"/>
+          <line num="13" count="26" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+        </file>
+        <file name="error.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\middleware\error.js">
+          <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+        </file>
+        <file name="validate.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\middleware\validate.js">
+          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="9" type="stmt"/>
+          <line num="5" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="6" count="7" type="stmt"/>
+        </file>
+        <file name="validateObjectId.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\middleware\validateObjectId.js">
+          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="13" type="cond" truecount="2" falsecount="0"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="7" count="10" type="stmt"/>
+        </file>
+      </package>
+      <package name="before.models">
+        <metrics statements="52" coveredstatements="44" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="4"/>
+        <file name="customer.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\models\customer.js">
+          <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="33" count="3" type="stmt"/>
+          <line num="34" count="3" type="stmt"/>
+        </file>
+        <file name="genre.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\models\genre.js">
+          <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="16" count="10" type="stmt"/>
+          <line num="20" count="10" type="stmt"/>
+          <line num="23" count="3" type="stmt"/>
+          <line num="24" count="3" type="stmt"/>
+          <line num="25" count="3" type="stmt"/>
+        </file>
+        <file name="movie.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\models\movie.js">
+          <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="42" count="3" type="stmt"/>
+          <line num="43" count="3" type="stmt"/>
+        </file>
+        <file name="rental.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\models\rental.js">
+          <metrics statements="15" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="59" count="3" type="stmt"/>
+          <line num="60" count="7" type="stmt"/>
+          <line num="66" count="3" type="stmt"/>
+          <line num="67" count="5" type="stmt"/>
+          <line num="69" count="5" type="stmt"/>
+          <line num="70" count="5" type="stmt"/>
+          <line num="73" count="3" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="81" count="0" type="stmt"/>
+          <line num="84" count="3" type="stmt"/>
+          <line num="85" count="3" type="stmt"/>
+        </file>
+        <file name="user.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\models\user.js">
+          <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="1" count="5" type="stmt"/>
+          <line num="2" count="5" type="stmt"/>
+          <line num="3" count="5" type="stmt"/>
+          <line num="4" count="5" type="stmt"/>
+          <line num="6" count="5" type="stmt"/>
+          <line num="29" count="5" type="stmt"/>
+          <line num="30" count="34" type="stmt"/>
+          <line num="31" count="34" type="stmt"/>
+          <line num="34" count="5" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="47" count="5" type="stmt"/>
+          <line num="48" count="5" type="stmt"/>
+        </file>
+      </package>
+      <package name="before.routes">
+        <metrics statements="182" coveredstatements="103" conditionals="58" coveredconditionals="14" methods="24" coveredmethods="7"/>
+        <file name="auth.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\routes\auth.js">
+          <metrics statements="19" coveredstatements="9" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="32" count="3" type="stmt"/>
+        </file>
+        <file name="customers.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\routes\customers.js">
+          <metrics statements="28" coveredstatements="10" conditionals="10" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="25" count="3" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="41" count="3" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="49" count="3" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="57" count="3" type="stmt"/>
+        </file>
+        <file name="genres.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\routes\genres.js">
+          <metrics statements="31" coveredstatements="31" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
+          <line num="15" count="5" type="stmt"/>
+          <line num="16" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="18" count="3" type="stmt"/>
+          <line num="19" count="3" type="stmt"/>
+          <line num="21" count="3" type="stmt"/>
+          <line num="24" count="3" type="stmt"/>
+          <line num="25" count="5" type="stmt"/>
+          <line num="26" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="28" count="3" type="stmt"/>
+          <line num="32" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="34" count="2" type="stmt"/>
+          <line num="37" count="3" type="stmt"/>
+          <line num="38" count="3" type="stmt"/>
+          <line num="40" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="42" count="2" type="stmt"/>
+          <line num="45" count="3" type="stmt"/>
+          <line num="47" count="2" type="stmt"/>
+          <line num="49" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="54" count="3" type="stmt"/>
+        </file>
+        <file name="movies.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\routes\movies.js">
+          <metrics statements="33" coveredstatements="11" conditionals="14" coveredconditionals="0" methods="5" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="33" count="3" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="56" count="3" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="64" count="3" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="67" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="69" count="0" type="stmt"/>
+          <line num="72" count="3" type="stmt"/>
+        </file>
+        <file name="rentals.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\routes\rentals.js">
+          <metrics statements="29" coveredstatements="12" conditionals="10" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="16" count="3" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="56" count="3" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="64" count="3" type="stmt"/>
+        </file>
+        <file name="returns.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\routes\returns.js">
+          <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="10" count="7" type="stmt"/>
+          <line num="12" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="14" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="16" count="5" type="stmt"/>
+          <line num="17" count="5" type="stmt"/>
+          <line num="19" count="5" type="stmt"/>
+          <line num="23" count="5" type="stmt"/>
+          <line num="27" count="9" type="stmt"/>
+          <line num="32" count="9" type="stmt"/>
+          <line num="35" count="3" type="stmt"/>
+        </file>
+        <file name="users.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\routes\users.js">
+          <metrics statements="24" coveredstatements="12" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="8" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="16" count="3" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="32" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="before.startup">
+        <metrics statements="42" coveredstatements="40" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="6"/>
+        <file name="config.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\startup\config.js">
+          <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="cond" truecount="1" falsecount="1"/>
+          <line num="5" count="0" type="stmt"/>
+        </file>
+        <file name="db.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\startup\db.js">
+          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="8" count="3" type="stmt"/>
+        </file>
+        <file name="logging.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\startup\logging.js">
+          <metrics statements="9" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="10" count="3" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
+        </file>
+        <file name="routes.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\startup\routes.js">
+          <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="8" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
+          <line num="16" count="3" type="stmt"/>
+          <line num="17" count="3" type="stmt"/>
+          <line num="18" count="3" type="stmt"/>
+          <line num="19" count="3" type="stmt"/>
+          <line num="20" count="3" type="stmt"/>
+        </file>
+        <file name="validation.js" path="C:\Users\quent\Documents\Developpement Web\Node.JS\15-Deployment\15- Deployment\before\startup\validation.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
